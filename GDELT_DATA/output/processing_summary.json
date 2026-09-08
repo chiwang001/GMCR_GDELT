@@ -1,0 +1,8 @@
+{
+  "valid_bilateral_root_events": 101398,
+  "direct_trade_events": 11408,
+  "trade_context_events": 19947,
+  "retrospective_or_invalid_date_share": 0.013797116313931242,
+  "monthly_feature_rows": 1332,
+  "demo_scope": "trade_context"
+}

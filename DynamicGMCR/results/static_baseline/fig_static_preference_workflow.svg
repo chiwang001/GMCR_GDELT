@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="667.91952pt" height="181.91952pt" viewBox="0 0 667.91952 181.91952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-07T21:15:24.997045</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 181.91952 
+L 667.91952 181.91952 
+L 667.91952 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 18.88799 125.039664 
+L 146.885897 125.039664 
+Q 156.73189 125.039664 156.73189 122.483671 
+L 156.73189 42.395897 
+Q 156.73189 39.839904 146.885897 39.839904 
+L 18.88799 39.839904 
+Q 9.041998 39.839904 9.041998 42.395897 
+L 9.041998 122.483671 
+Q 9.041998 125.039664 18.88799 125.039664 
+z
+" clip-path="url(#p7d8c64cf28)" style="fill: #ffffff; stroke: #56b4e9; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 189.551866 125.039664 
+L 304.421782 125.039664 
+Q 314.267774 125.039664 314.267774 122.483671 
+L 314.267774 42.395897 
+Q 314.267774 39.839904 304.421782 39.839904 
+L 189.551866 39.839904 
+Q 179.705873 39.839904 179.705873 42.395897 
+L 179.705873 122.483671 
+Q 179.705873 125.039664 189.551866 125.039664 
+z
+" clip-path="url(#p7d8c64cf28)" style="fill: #ffffff; stroke: #e69f00; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 347.08775 125.039664 
+L 475.085657 125.039664 
+Q 484.93165 125.039664 484.93165 122.483671 
+L 484.93165 42.395897 
+Q 484.93165 39.839904 475.085657 39.839904 
+L 347.08775 39.839904 
+Q 337.241758 39.839904 337.241758 42.395897 
+L 337.241758 122.483671 
+Q 337.241758 125.039664 347.08775 125.039664 
+z
+" clip-path="url(#p7d8c64cf28)" style="fill: #ffffff; stroke: #009e73; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 517.751626 142.079616 
+L 649.03153 142.079616 
+Q 658.877522 142.079616 658.877522 139.523623 
+L 658.877522 25.355945 
+Q 658.877522 22.799952 649.03153 22.799952 
+L 517.751626 22.799952 
+Q 507.905633 22.799952 507.905633 25.355945 
+L 507.905633 139.523623 
+Q 507.905633 142.079616 517.751626 142.079616 
+z
+" clip-path="url(#p7d8c64cf28)" style="fill: #ffffff; stroke: #0072b2; stroke-width: 1.25; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 155.451061 82.439784 
+Q 168.219441 82.439784 179.869787 82.439784 
+" clip-path="url(#p7d8c64cf28)" style="fill: none; stroke: #242424; stroke-linecap: round"/>
+    <path d="M 175.069787 80.039784 
+L 179.869787 82.439784 
+L 175.069787 84.839784 
+z
+" clip-path="url(#p7d8c64cf28)" style="fill: #242424; stroke: #242424; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 312.986946 82.439784 
+Q 325.755326 82.439784 337.405672 82.439784 
+" clip-path="url(#p7d8c64cf28)" style="fill: none; stroke: #242424; stroke-linecap: round"/>
+    <path d="M 332.605672 80.039784 
+L 337.405672 82.439784 
+L 332.605672 84.839784 
+z
+" clip-path="url(#p7d8c64cf28)" style="fill: #242424; stroke: #242424; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 483.650821 82.439784 
+Q 496.419201 82.439784 508.069547 82.439784 
+" clip-path="url(#p7d8c64cf28)" style="fill: none; stroke: #242424; stroke-linecap: round"/>
+    <path d="M 503.269547 80.039784 
+L 508.069547 82.439784 
+L 503.269547 84.839784 
+z
+" clip-path="url(#p7d8c64cf28)" style="fill: #242424; stroke: #242424; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Times New Roman', serif; fill: #56b4e9" transform="translate(46.510381 65.315859)">Strategy-priority</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Times New Roman', serif; fill: #56b4e9" transform="translate(56.77835 74.757734)">declarations</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', serif; fill: #242424" transform="translate(47.71753 96.242161)">8 ordered statements</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', serif; fill: #242424" transform="translate(42.176592 105.438099)">for each decision maker</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Times New Roman', serif; text-anchor: middle; fill: #e69f00" x="246.986824" y="70.027422" transform="rotate(-0 246.986824 70.027422)">Binary satisfaction</text>
+   </g>
+   <g id="text_4">
+    <!-- $b_{ip}(s)\in\{0,1\}$ -->
+    <g style="fill: #242424" transform="translate(223.781824 100.073138)">
+     <text>
+      <tspan x="0" y="-0.75" style="font-style: italic; font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">b</tspan>
+      <tspan x="12.05969" y="-0.75" style="font-style: italic; font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">s</tspan>
+      <tspan x="4.25" y="1.356141" style="font-style: italic; font-size: 5.95px; font-family: 'Times New Roman'; fill: #242424">i</tspan>
+      <tspan x="5.903101" y="1.356141" style="font-style: italic; font-size: 5.95px; font-family: 'Times New Roman'; fill: #242424">p</tspan>
+      <tspan x="9.229124" y="-0.75" style="font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">(</tspan>
+      <tspan x="15.367552" y="-0.75" style="font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">)</tspan>
+      <tspan x="26.314622" y="-0.75" style="font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">{</tspan>
+      <tspan x="30.394456" y="-0.75" style="font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">0</tspan>
+      <tspan x="34.644456" y="-0.75" style="font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">,</tspan>
+      <tspan x="37.997142" y="-0.75" style="font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">1</tspan>
+      <tspan x="42.247142" y="-0.75" style="font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">}</tspan>
+      <tspan x="19.425804" y="-0.75" style="font-size: 8.5px; font-family: 'cmsy10'; fill: #242424">2</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Times New Roman', serif; text-anchor: middle; fill: #009e73" x="411.086704" y="70.027422" transform="rotate(-0 411.086704 70.027422)">Lexicographic utility</text>
+   </g>
+   <g id="text_6">
+    <!-- $V_i(s)=\sum_{p=1}^{8}2^{8-p}b_{ip}(s)$ -->
+    <g style="fill: #242424" transform="translate(376.874204 100.243138)">
+     <text>
+      <tspan x="0" y="-0.840625" style="font-style: italic; font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">V</tspan>
+      <tspan x="10.026829" y="-0.840625" style="font-style: italic; font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">s</tspan>
+      <tspan x="50.186912" y="-0.840625" style="font-style: italic; font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">b</tspan>
+      <tspan x="62.246602" y="-0.840625" style="font-style: italic; font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">s</tspan>
+      <tspan x="5.192139" y="1.265516" style="font-style: italic; font-size: 5.95px; font-family: 'Times New Roman'; fill: #242424">i</tspan>
+      <tspan x="23.414329" y="6.945312" style="font-style: italic; font-size: 5.95px; font-family: 'Times New Roman'; fill: #242424">p</tspan>
+      <tspan x="46.860888" y="-5.754953" style="font-style: italic; font-size: 5.95px; font-family: 'Times New Roman'; fill: #242424">p</tspan>
+      <tspan x="54.436912" y="1.265516" style="font-style: italic; font-size: 5.95px; font-family: 'Times New Roman'; fill: #242424">i</tspan>
+      <tspan x="56.090013" y="1.265516" style="font-style: italic; font-size: 5.95px; font-family: 'Times New Roman'; fill: #242424">p</tspan>
+      <tspan x="7.196263" y="-0.840625" style="font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">(</tspan>
+      <tspan x="13.33469" y="-0.840625" style="font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">)</tspan>
+      <tspan x="17.392942" y="-0.840625" style="font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">=</tspan>
+      <tspan x="26.414329" y="-0.840625" style="font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">∑</tspan>
+      <tspan x="34.43868" y="-0.840625" style="font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">2</tspan>
+      <tspan x="59.416036" y="-0.840625" style="font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">(</tspan>
+      <tspan x="65.554464" y="-0.840625" style="font-size: 8.5px; font-family: 'Times New Roman'; fill: #242424">)</tspan>
+      <tspan x="27.248709" y="6.945312" style="font-size: 5.95px; font-family: 'Times New Roman'; fill: #242424">=</tspan>
+      <tspan x="27.414329" y="-8.745313" style="font-size: 5.95px; font-family: 'Times New Roman'; fill: #242424">8</tspan>
+      <tspan x="31.46368" y="6.945312" style="font-size: 5.95px; font-family: 'Times New Roman'; fill: #242424">1</tspan>
+      <tspan x="38.811538" y="-5.754953" style="font-size: 5.95px; font-family: 'Times New Roman'; fill: #242424">8</tspan>
+      <tspan x="42.645918" y="-5.754953" style="font-size: 5.95px; font-family: 'Times New Roman'; fill: #242424">−</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Times New Roman', serif; text-anchor: middle; fill: #0072b2" x="583.391578" y="63.893039" transform="rotate(-0 583.391578 63.893039)">Static GMCR analysis</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', serif; fill: #242424" transform="translate(554.358101 98.460173)">76 feasible states</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', serif; fill: #242424" transform="translate(538.050054 107.656111)">Nash / GMR / SMR / SEQ</text>
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', serif; fill: #242424" transform="translate(535.703257 116.852048)">Historical transition support</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', serif; text-anchor: middle; fill: #555555" x="333.95976" y="164.561582" transform="rotate(-0 333.95976 164.561582)">Fixed preferences over the full sample; no monthly shocks or estimated preference weights</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7d8c64cf28">
+   <rect x="5.76" y="5.76" width="656.39952" height="170.39952"/>
+  </clipPath>
+ </defs>
+</svg>

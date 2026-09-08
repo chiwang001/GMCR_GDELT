@@ -1,0 +1,37 @@
+{
+    "model":  "static_strategy_priority_gmcr_baseline",
+    "input_source":  "DynamicGMCR/input",
+    "preference_method":  "GMCR strategy priority declarations",
+    "months":  37,
+    "transitions":  36,
+    "feasible_states":  76,
+    "cn_edges":  229,
+    "us_edges":  182,
+    "changed_months":  11,
+    "unchanged_months":  25,
+    "unchanged_stability_satisfied":  8,
+    "unchanged_stability_violation_count":  17,
+    "unchanged_stability_satisfaction_rate":  0.32,
+    "changed_positive_probability_count":  5,
+    "changed_zero_probability_count":  6,
+    "changed_positive_probability_rate":  0.45454545454545453,
+    "changed_probability_mean":  0.1730461062011864,
+    "changed_log_probability_sum":  -120.02204557813653,
+    "conditional_change_top1_accuracy":  0.18181818181818182,
+    "conditional_change_top3_accuracy":  0.2727272727272727,
+    "conditional_change_top5_accuracy":  0.36363636363636365,
+    "conditional_change_mean_rank":  43.45454545454545,
+    "explanation_counts":  {
+                               "unstable_status_quo":  17,
+                               "stable_status_quo":  8,
+                               "unsupported_transition":  6,
+                               "immediate_utility_support":  5
+                           },
+    "interpretation":  "Static preferences are generated from fixed strategy-priority declarations. Binary powers preserve their lexicographic order; no monthly event shocks, dynamic preference states, estimated option weights, or optimized preference parameters are used.",
+    "configuration":  {
+                          "input_dir":  "DynamicGMCR/input",
+                          "output_dir":  "DynamicGMCR/results/static_baseline",
+                          "improvement_tolerance":  1E-09,
+                          "path_score_floor":  1E-08
+                      }
+}

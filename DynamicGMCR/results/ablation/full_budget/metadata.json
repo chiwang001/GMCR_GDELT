@@ -1,0 +1,23 @@
+{
+    "input_dir":  "DynamicGMCR/input",
+    "output_dir":  "DynamicGMCR/results/ablation/full_budget",
+    "preset":  "full",
+    "seed":  20250728,
+    "variants":  [
+                     "full",
+                     "no_historical_memory",
+                     "no_forward_reward",
+                     "no_score_perturbation",
+                     "no_nonlinear_saturation",
+                     "no_stability_penalty"
+                 ],
+    "variant_definitions":  {
+                                "full":  "All core-model components enabled.",
+                                "no_historical_memory":  "Replace the 0.6/0.3/0.1 distributed lag with the immediately preceding impact only.",
+                                "no_forward_reward":  "Set lambda_forward to zero, removing the forward shortfall term.",
+                                "no_score_perturbation":  "Set the ex ante state-score disturbance process to zero.",
+                                "no_nonlinear_saturation":  "Replace tanh innovation saturation with an unsaturated linear innovation response.",
+                                "no_stability_penalty":  "Set lambda_stable to zero, removing the unchanged-month SEQ stability shortfall from the objective."
+                            },
+    "aggregation":  "All variants use the same optimizer seed and preset; deltas are reported against full."
+}

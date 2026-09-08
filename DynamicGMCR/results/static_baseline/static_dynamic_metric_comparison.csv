@@ -1,0 +1,8 @@
+﻿metric,static,dynamic_median,dynamic_q05,dynamic_q95
+Changed transition positive-support rate,0.45454545454545453,1.0,1.0,1.0
+Mean probability on observed changes,0.1730461062011864,0.4426172321132139,0.41379495027074514,0.512288141640563
+Unchanged months jointly SEQ-stable,0.24,0.52,0.4,0.64
+Joint NASH hit rate on unchanged months,0.04,0.36,0.28,0.52
+Joint GMR hit rate on unchanged months,0.32,0.64,0.56,0.76
+Joint SMR hit rate on unchanged months,0.32,0.52,0.36,0.64
+Joint SEQ hit rate on unchanged months,0.24,0.52,0.4,0.64
