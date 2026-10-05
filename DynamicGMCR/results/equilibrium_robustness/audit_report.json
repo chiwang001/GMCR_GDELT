@@ -1,0 +1,131 @@
+﻿{
+    "prediction_month":  202002,
+    "valid_utility_solution_count":  500,
+    "valid_utility_row_count":  76000,
+    "preference_forecast_solution_count":  500,
+    "parameter_file_count":  500,
+    "parameter_file_candidate_count":  500,
+    "seed_directories_with_multiple_parameter_candidates":  0,
+    "parameter_unique_seed_count":  500,
+    "utility_and_parameter_seed_sets_match":  true,
+    "preference_prediction_months":  [
+                                         202002
+                                     ],
+    "latest_monthly_impact_input":  202001,
+    "latest_observed_state_month":  202001,
+    "february_forecast_uses_inputs_through_january":  true,
+    "pairwise_orientation":  "P[s,q] is the retained-solution fraction with utility(s) \u003e utility(q)",
+    "strict_improvement_rule":  "q is a strict improvement from s exactly when P[q,s] \u003e tau",
+    "matrix_reconstruction_max_abs_error":  0.0,
+    "matrix_reconstruction_exact":  true,
+    "archived_probability_margin_max_abs_difference_from_current_500":  0.4959349593,
+    "archived_probability_classifications_all_match_current_500":  false,
+    "archived_probability_classification_difference_count":  3,
+    "archived_probability_declared_source_paths":  [
+                                                       "DynamicGMCR\\results\\preference_prediction\\predicted_preference_matrix_CN_202002.csv",
+                                                       "DynamicGMCR\\results\\preference_prediction\\predicted_preference_matrix_US_202002.csv"
+                                                   ],
+    "archived_probability_declared_sources_exist":  [
+                                                        true,
+                                                        true
+                                                    ],
+    "archived_probability_output_reproducible_from_present_inputs":  false,
+    "archived_nominal_ensemble_size_from_core_summary":  369,
+    "archived_margin_grid_max_rounding_residual_at_nominal_size":  1.829999973779195E-08,
+    "current_reference_selection":  "The exact matrix reconstructed from all 500 currently archived complete utility forecasts is the reference for the new resampling analysis.",
+    "graph_reused_for_all_analyses":  true,
+    "s54_archived_probability_output":  {
+                                            "CN":  {
+                                                       "Nash":  {
+                                                                    "margin":  -0.5,
+                                                                    "stable":  false
+                                                                },
+                                                       "GMR":  {
+                                                                   "margin":  0.2886178862,
+                                                                   "stable":  true
+                                                               },
+                                                       "SMR":  {
+                                                                   "margin":  -0.4674796748,
+                                                                   "stable":  false
+                                                               },
+                                                       "SEQ":  {
+                                                                   "margin":  0.2127371274,
+                                                                   "stable":  true
+                                                               }
+                                                   },
+                                            "US":  {
+                                                       "Nash":  {
+                                                                    "margin":  -0.4376693767,
+                                                                    "stable":  false
+                                                                },
+                                                       "GMR":  {
+                                                                   "margin":  0.283197832,
+                                                                   "stable":  true
+                                                               },
+                                                       "SMR":  {
+                                                                   "margin":  0.1964769648,
+                                                                   "stable":  true
+                                                               },
+                                                       "SEQ":  {
+                                                                   "margin":  0.2750677507,
+                                                                   "stable":  true
+                                                               }
+                                                   }
+                                        },
+    "s54_current_500_probability_output":  {
+                                               "CN":  {
+                                                          "Nash":  {
+                                                                       "margin":  -0.498,
+                                                                       "stable":  false
+                                                                   },
+                                                          "GMR":  {
+                                                                      "margin":  0.31000000000000005,
+                                                                      "stable":  true
+                                                                  },
+                                                          "SMR":  {
+                                                                      "margin":  -0.47,
+                                                                      "stable":  false
+                                                                  },
+                                                          "SEQ":  {
+                                                                      "margin":  0.21199999999999997,
+                                                                      "stable":  true
+                                                                  }
+                                                      },
+                                               "US":  {
+                                                          "Nash":  {
+                                                                       "margin":  -0.44399999999999995,
+                                                                       "stable":  false
+                                                                   },
+                                                          "GMR":  {
+                                                                      "margin":  0.28400000000000003,
+                                                                      "stable":  true
+                                                                  },
+                                                          "SMR":  {
+                                                                      "margin":  0.18799999999999994,
+                                                                      "stable":  true
+                                                                  },
+                                                          "SEQ":  {
+                                                                      "margin":  0.278,
+                                                                      "stable":  true
+                                                                  }
+                                                      }
+                                           },
+    "s54_discrepancy":  "Both the archived 369-grid output and the recomputed 500-solution reference classify US state 54 as SMR-stable with a positive margin, whereas the manuscript actor-specific column omits SMR. Joint SMR remains false because CN is SMR-unstable.",
+    "historical_distance_scale":  {
+                                      "file_found":  true,
+                                      "historical_squared_distance_definition":  "unnormalized sum of squared entry differences",
+                                      "historical_mean_squared_difference_definition":  "squared sum divided by matrix entry count",
+                                      "first_row_combined_mean_recomputed":  0.012033323407202215,
+                                      "first_row_combined_mean_reported":  0.012033323407,
+                                      "scale_matches":  true
+                                  },
+    "reference_threshold":  0.5,
+    "global_ui_threshold_separation":  0.0020000000000000018,
+    "state_count":  76,
+    "transition_edge_count":  {
+                                  "CN":  229,
+                                  "US":  182
+                              },
+    "structural_no_move_actor_state_count":  5,
+    "feasible_moves_but_no_strict_improvement_count":  45
+}

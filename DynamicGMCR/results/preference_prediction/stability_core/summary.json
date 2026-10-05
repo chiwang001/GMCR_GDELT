@@ -1,0 +1,42 @@
+{
+    "utilities":  "DynamicGMCR/source_runs/preference_prediction/predicted_utilities_by_seed_202002.csv",
+    "input_dir":  "DynamicGMCR/input",
+    "seed_count":  369,
+    "state_count":  76,
+    "actors":  [
+                   "CN",
+                   "US"
+               ],
+    "concepts":  [
+                     "Nash",
+                     "GMR",
+                     "SMR",
+                     "SEQ"
+                 ],
+    "core_parameters":  {
+                            "theta":  0.1,
+                            "empty_neighbor_margin":  1.0,
+                            "margin_cap":  10.0,
+                            "utility_standardization":  "within seed and actor across all states"
+                        },
+    "majority_stable_state_counts":  {
+                                         "CN":  {
+                                                    "Nash":  27,
+                                                    "GMR":  56,
+                                                    "SMR":  45,
+                                                    "SEQ":  37
+                                                },
+                                         "US":  {
+                                                    "Nash":  26,
+                                                    "GMR":  56,
+                                                    "SMR":  48,
+                                                    "SEQ":  39
+                                                }
+                                     },
+    "joint_majority_stable_state_counts":  {
+                                               "Nash":  4,
+                                               "GMR":  39,
+                                               "SMR":  27,
+                                               "SEQ":  15
+                                           }
+}

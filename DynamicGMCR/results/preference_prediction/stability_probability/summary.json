@@ -1,0 +1,41 @@
+{
+    "cn_matrix":  "DynamicGMCR/source_runs/preference_prediction/predicted_preference_matrix_CN_202002.csv",
+    "us_matrix":  "DynamicGMCR/source_runs/preference_prediction/predicted_preference_matrix_US_202002.csv",
+    "graph":  "DynamicGMCR/input/state_transition_graph.csv",
+    "threshold":  0.5,
+    "state_count":  76,
+    "actors":  [
+                   "CN",
+                   "US"
+               ],
+    "concepts":  [
+                     "Nash",
+                     "GMR",
+                     "SMR",
+                     "SEQ"
+                 ],
+    "transition_edge_count":  {
+                                  "CN":  229,
+                                  "US":  182
+                              },
+    "stable_state_counts":  {
+                                "CN":  {
+                                           "Nash":  26,
+                                           "GMR":  55,
+                                           "SMR":  42,
+                                           "SEQ":  37
+                                       },
+                                "US":  {
+                                           "Nash":  25,
+                                           "GMR":  53,
+                                           "SMR":  47,
+                                           "SEQ":  38
+                                       }
+                            },
+    "joint_stable_state_counts":  {
+                                      "Nash":  5,
+                                      "GMR":  39,
+                                      "SMR":  25,
+                                      "SEQ":  15
+                                  }
+}

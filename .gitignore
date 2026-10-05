@@ -1,0 +1,24 @@
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Local environments and editor files
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated solver runs and temporary downloads
+DynamicGMCR/output/
+DynamicGMCR/tmp/
+GDELT_DATA/results/raw_tmp/
+GDELT_DATA/results/table/
+
+# Generated manuscript-only artifacts
+DynamicGMCR/results/equilibrium_robustness/manuscript/
+DynamicGMCR/results/equilibrium_robustness/manuscript_materials.tex

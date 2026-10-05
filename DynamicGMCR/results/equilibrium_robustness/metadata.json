@@ -1,0 +1,82 @@
+﻿{
+    "generated_utc":  "2026-10-04T09:55:59.732892+00:00",
+    "analysis":  "finite-ensemble sampling propagation through probability-form GMCR",
+    "project_root":  "DynamicGMCR",
+    "dynamic_root":  "DynamicGMCR",
+    "source_git_commit":  null,
+    "inputs":  [
+                   {
+                       "path":  "DynamicGMCR\\results\\preference_prediction\\predicted_utilities_by_seed_202002.csv",
+                       "sha256":  "51ec77fed637ba44b9ed695f4669a1092f443858753c91d14fc164f52a2998d1",
+                       "bytes":  3509157
+                   },
+                   {
+                       "path":  "DynamicGMCR\\results\\preference_prediction\\predicted_preferences_by_seed_202002.csv",
+                       "sha256":  "c99258bb7e3b13fa7287781c36c81141af2b2c3c04ebe6f522870e3e23b24d6c",
+                       "bytes":  411680
+                   },
+                   {
+                       "path":  "DynamicGMCR\\results\\preference_prediction\\predicted_preference_matrix_CN_202002.csv",
+                       "sha256":  "267052d3726fe771dd96f7198751389df603bc84ad956a0c225a479d983b939d",
+                       "bytes":  76071
+                   },
+                   {
+                       "path":  "DynamicGMCR\\results\\preference_prediction\\predicted_preference_matrix_US_202002.csv",
+                       "sha256":  "3032e56c3ef49d957097340ed90b2c930300aeb604c0e0cc9575b05737843d18",
+                       "bytes":  76071
+                   },
+                   {
+                       "path":  "DynamicGMCR\\input\\state_transition_graph.csv",
+                       "sha256":  "95c6a82038942cb370d8236870c6e4ac592f0102412ff7f31b52b30d420ba08f",
+                       "bytes":  30512
+                   },
+                   {
+                       "path":  "DynamicGMCR\\input\\monthly_country_domain_impact.csv",
+                       "sha256":  "b0ddfdbad2f12b1911d28e71314b6f789c6933a6a948e5a30c41a6ff0eeaa2c8",
+                       "bytes":  47491
+                   },
+                   {
+                       "path":  "DynamicGMCR\\input\\monthly_key_states.csv",
+                       "sha256":  "14994f2e1de1e30ece342ec53dca4ed1678e30aa369ed12ea7fcadb2adb58601",
+                       "bytes":  396
+                   },
+                   {
+                       "path":  "DynamicGMCR\\cod\\gmcr_probability_stability.py",
+                       "sha256":  "49281ee4b9da22f375ba282c7558183275f5cb899a3c9895029860b10ad6a076",
+                       "bytes":  14647
+                   }
+               ],
+    "settings":  {
+                     "full_ensemble_size":  500,
+                     "subset_sizes":  [
+                                          10,
+                                          50,
+                                          100,
+                                          200,
+                                          300,
+                                          400,
+                                          490
+                                      ],
+                     "replicates_per_size":  100,
+                     "sampling_seed":  20261004,
+                     "threshold":  0.5,
+                     "sensitivity_thresholds":  [
+                                                    0.5,
+                                                    0.55,
+                                                    0.6
+                                                ],
+                     "batch_count":  5,
+                     "boundary_epsilon":  0.05,
+                     "quick":  false,
+                     "jaccard_empty_union_convention":  1.0,
+                     "stability_tolerance":  1E-12
+                 },
+    "software":  {
+                     "python":  "3.13.2 | packaged by Anaconda, Inc. | (main, Feb  6 2025, 18:49:14) [MSC v.1929 64 bit (AMD64)]",
+                     "platform":  "Windows-11-10.0.26200-SP0",
+                     "numpy":  "2.3.3",
+                     "pandas":  "2.3.2",
+                     "matplotlib":  "3.10.6"
+                 },
+    "interpretation":  "Pairwise entries are retained-solution ranking frequencies. Results are conditional on the supplied model, graph, threshold, and retained-solution protocol."
+}
