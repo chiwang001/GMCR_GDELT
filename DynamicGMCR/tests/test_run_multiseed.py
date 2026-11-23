@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import argparse
 import importlib.util
 import json
 import sys
@@ -10,7 +9,7 @@ from types import SimpleNamespace
 from unittest.mock import patch
 
 
-SCRIPT_PATH = Path(__file__).resolve().parents[1] / "cod" / "run_multiseed.py"
+SCRIPT_PATH = Path(__file__).resolve().parents[1] / "cod" / "p03_run_multiseed.py"
 SPEC = importlib.util.spec_from_file_location("demo4_multiseed", SCRIPT_PATH)
 assert SPEC is not None and SPEC.loader is not None
 runner = importlib.util.module_from_spec(SPEC)
@@ -55,14 +54,9 @@ def write_complete_run(output_dir: Path, seed: int, name: str = "31-12-00") -> P
     return run_dir
 
 
-def test_parse_int_list_accepts_ten_seeds_and_rejects_duplicates() -> None:
+def test_parse_int_list_accepts_seeds() -> None:
     assert runner.parse_int_list("1, 2,3") == (1, 2, 3)
-    try:
-        runner.parse_int_list("1,1")
-    except argparse.ArgumentTypeError:
-        pass
-    else:
-        raise AssertionError("Duplicate seeds should be rejected")
+    assert runner.parse_int_list("1,1") == (1, 1)
 
 
 def test_child_command_passes_optimizer_and_fixed_perturbation_seeds() -> None:

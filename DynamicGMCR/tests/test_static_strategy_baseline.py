@@ -11,7 +11,7 @@ import numpy as np
 CODE_DIR = Path(__file__).resolve().parents[1] / "cod"
 sys.path.insert(0, str(CODE_DIR))
 
-import run_static_strategy_baseline as baseline
+import p21_run_static_strategy_baseline as baseline
 
 
 class StaticBaselineTests(unittest.TestCase):

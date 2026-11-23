@@ -11,7 +11,7 @@ import pandas as pd
 SCRIPT_PATH = (
     Path(__file__).resolve().parents[1]
     / "cod"
-    / "visualize_preference_matrix_convergence.py"
+    / "p12_visualize_matrix_convergence.py"
 )
 SPEC = importlib.util.spec_from_file_location("demo4_convergence_visualization", SCRIPT_PATH)
 assert SPEC is not None and SPEC.loader is not None

@@ -9,7 +9,7 @@ import numpy as np
 
 CODE_DIR = Path(__file__).resolve().parents[1] / "cod"
 sys.path.insert(0, str(CODE_DIR))
-SCRIPT_PATH = CODE_DIR / "predict_preference_matrix.py"
+SCRIPT_PATH = CODE_DIR / "p04_predict_preference_matrix.py"
 SPEC = importlib.util.spec_from_file_location("demo4_preference_prediction", SCRIPT_PATH)
 assert SPEC is not None and SPEC.loader is not None
 prediction = importlib.util.module_from_spec(SPEC)

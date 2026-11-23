@@ -10,7 +10,7 @@ import pandas as pd
 
 CODE_DIR = Path(__file__).resolve().parents[1] / "cod"
 sys.path.insert(0, str(CODE_DIR))
-SCRIPT_PATH = CODE_DIR / "check_stability_states.py"
+SCRIPT_PATH = CODE_DIR / "p02_check_stability_states.py"
 SPEC = importlib.util.spec_from_file_location("demo4_stability_check", SCRIPT_PATH)
 assert SPEC is not None and SPEC.loader is not None
 checker = importlib.util.module_from_spec(SPEC)

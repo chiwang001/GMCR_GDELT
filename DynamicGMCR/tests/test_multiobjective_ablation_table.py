@@ -8,7 +8,7 @@ import pandas as pd
 CODE_DIR = Path(__file__).resolve().parents[1] / "cod"
 sys.path.insert(0, str(CODE_DIR))
 
-import generate_multiobjective_ablation_table as table  # noqa: E402
+import p19_generate_ablation_table as table  # noqa: E402
 
 
 def test_multiobjective_table_has_all_models_and_metrics() -> None:

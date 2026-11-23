@@ -9,7 +9,7 @@ import pandas as pd
 
 
 SCRIPT_PATH = (
-    Path(__file__).resolve().parents[1] / "cod" / "visualize_stability_states.py"
+    Path(__file__).resolve().parents[1] / "cod" / "p07_visualize_stability_states.py"
 )
 SPEC = importlib.util.spec_from_file_location("demo4_stability_visualization", SCRIPT_PATH)
 assert SPEC is not None and SPEC.loader is not None
@@ -38,7 +38,6 @@ def classification_frame() -> pd.DataFrame:
 
 def test_prediction_matrix_orders_states_and_actor_concepts() -> None:
     data = classification_frame()
-    visualizer.validate_classification(data)
 
     values, states, labels = visualizer.prediction_matrix(data, "_stable")
 

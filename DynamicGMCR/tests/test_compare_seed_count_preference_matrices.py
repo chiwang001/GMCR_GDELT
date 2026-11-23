@@ -9,7 +9,7 @@ import numpy as np
 
 CODE_DIR = Path(__file__).resolve().parents[1] / "cod"
 sys.path.insert(0, str(CODE_DIR))
-SCRIPT_PATH = CODE_DIR / "compare_seed_count_preference_matrices.py"
+SCRIPT_PATH = CODE_DIR / "p11_compare_seed_count_matrices.py"
 SPEC = importlib.util.spec_from_file_location("demo4_matrix_comparison", SCRIPT_PATH)
 assert SPEC is not None and SPEC.loader is not None
 comparison = importlib.util.module_from_spec(SPEC)

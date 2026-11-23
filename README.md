@@ -32,17 +32,18 @@ they are not action probabilities or posterior probabilities.
 
 | Path | Contents |
 | --- | --- |
-| `DynamicGMCR/cod/` | Calibration, prediction, GMCR stability, robustness, plotting, and static-baseline scripts |
+| `DynamicGMCR/cod/` | Numbered calibration, prediction, GMCR stability, robustness, plotting, and static-baseline scripts (`p01`–`p27` follow execution order) |
 | `DynamicGMCR/tests/` | Focused unit and integration tests for the current implementation |
 | `DynamicGMCR/input/` | State tables, transition graph, observed path, and monthly event-impact panel |
 | `DynamicGMCR/results/` | Curated parameter, prediction, baseline, ablation, convergence, and robustness results |
-| `GDELT_DATA/code/` | GDELT download/filter and monthly feature-construction scripts |
+| `GDELT_DATA/code/` | Numbered GDELT download/filter (`p01`) and monthly feature-construction (`p02`) scripts |
 | `GDELT_DATA/input/` | 37 directed China-US monthly event extracts |
 | `GDELT_DATA/output/` | Event audit, feature panels, CAMEO mapping, QC, and provenance summary |
 
 Generated solver runs belong under `DynamicGMCR/output/` and are ignored by
 Git. The published result tables under `DynamicGMCR/results/` are the inputs
-used by the reproducibility commands below.
+used by the reproducibility commands below. File prefixes `p01_`, `p02_`, ...
+encode the intended execution order inside each code directory.
 
 ## Environment
 
@@ -65,21 +66,21 @@ Run the tests first:
 Rebuild the monthly GDELT feature panel from the included event extracts:
 
 ```powershell
-\.venv\Scripts\python GDELT_DATA\code\aggregate_monthly_domain_shocks.py
+\.venv\Scripts\python GDELT_DATA\code\p02_aggregate_monthly_domain_shocks.py
 ```
 
 The original GDELT monthly extracts can be downloaded again (the complete
 range is network- and time-intensive):
 
 ```powershell
-\.venv\Scripts\python GDELT_DATA\code\demo1_201701_202001_monthly.py `
+\.venv\Scripts\python GDELT_DATA\code\p01_download_gdelt_events.py `
   --start-date 20170101 --end-date 20200131 --scope trade_context
 ```
 
 Run a small end-to-end calibration with the revised Demo4 solver:
 
 ```powershell
-\.venv\Scripts\python DynamicGMCR\cod\solve_core_preference_model.py --preset quick
+\.venv\Scripts\python DynamicGMCR\cod\p01_solve_core_preference_model.py --preset quick
 ```
 
 The paper-scale presets are `full`, `two_hour`, and `deep`. They require
@@ -90,7 +91,7 @@ Recompute the February 2020 preference matrices from the published solution
 ensemble:
 
 ```powershell
-\.venv\Scripts\python DynamicGMCR\cod\predict_preference_matrix.py `
+\.venv\Scripts\python DynamicGMCR\cod\p04_predict_preference_matrix.py `
   --results-dir DynamicGMCR\results\multiseed_parameters `
   --output-dir DynamicGMCR\output\reproduced_preference_prediction
 ```
@@ -98,7 +99,7 @@ ensemble:
 Run probability-form GMCR stability on the reproduced matrices:
 
 ```powershell
-\.venv\Scripts\python DynamicGMCR\cod\gmcr_probability_stability.py `
+\.venv\Scripts\python DynamicGMCR\cod\p06_gmcr_probability_stability.py `
   --cn-matrix DynamicGMCR\output\reproduced_preference_prediction\predicted_preference_matrix_CN_202002.csv `
   --us-matrix DynamicGMCR\output\reproduced_preference_prediction\predicted_preference_matrix_US_202002.csv `
   --graph DynamicGMCR\input\state_transition_graph.csv `
@@ -110,7 +111,7 @@ solutions. The checked-in report and figures are under
 `DynamicGMCR/results/equilibrium_robustness/`:
 
 ```powershell
-\.venv\Scripts\python DynamicGMCR\cod\analyze_equilibrium_robustness.py `
+\.venv\Scripts\python DynamicGMCR\cod\p17_analyze_equilibrium_robustness.py `
   --project-root DynamicGMCR `
   --output-dir DynamicGMCR\output\equilibrium_robustness `
   --subset-sizes 10,50,100,200,300,400,490 `
@@ -127,18 +128,18 @@ identification or statistical consistency.
 Reproduce the self-contained static strategy-priority baseline:
 
 ```powershell
-\.venv\Scripts\python DynamicGMCR\cod\run_static_strategy_baseline.py
-\.venv\Scripts\python DynamicGMCR\cod\generate_static_baseline_figures.py
-\.venv\Scripts\python DynamicGMCR\cod\compare_static_dynamic_all_seeds.py
+\.venv\Scripts\python DynamicGMCR\cod\p21_run_static_strategy_baseline.py
+\.venv\Scripts\python DynamicGMCR\cod\p22_generate_static_baseline_figures.py
+\.venv\Scripts\python DynamicGMCR\cod\p24_compare_static_dynamic_all_seeds.py
 \.venv\Scripts\python -m unittest DynamicGMCR.tests.test_static_strategy_baseline -v
 ```
 
 Run the controlled component ablations and build the multi-objective table:
 
 ```powershell
-\.venv\Scripts\python DynamicGMCR\cod\run_ablation_experiments.py `
+\.venv\Scripts\python DynamicGMCR\cod\p18_run_ablation_experiments.py `
   --output-dir DynamicGMCR\output\ablation\full_budget --preset full
-\.venv\Scripts\python DynamicGMCR\cod\generate_multiobjective_ablation_table.py
+\.venv\Scripts\python DynamicGMCR\cod\p19_generate_ablation_table.py
 ```
 
 The ablations are `full`, `no_historical_memory`, `no_forward_reward`,

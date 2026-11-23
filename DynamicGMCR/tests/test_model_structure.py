@@ -8,7 +8,7 @@ from pathlib import Path
 import numpy as np
 
 
-SOLVER_PATH = Path(__file__).resolve().parents[1] / "cod" / "solve_core_preference_model.py"
+SOLVER_PATH = Path(__file__).resolve().parents[1] / "cod" / "p01_solve_core_preference_model.py"
 SPEC = importlib.util.spec_from_file_location("demo4_solver", SOLVER_PATH)
 assert SPEC is not None and SPEC.loader is not None
 solver = importlib.util.module_from_spec(SPEC)

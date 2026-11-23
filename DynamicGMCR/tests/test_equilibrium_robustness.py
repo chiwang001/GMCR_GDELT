@@ -14,8 +14,8 @@ INSTALL_ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = next(
     path
     for path in (
-        INSTALL_ROOT / "analyze_equilibrium_robustness.py",
-        INSTALL_ROOT / "cod" / "analyze_equilibrium_robustness.py",
+        INSTALL_ROOT / "p17_analyze_equilibrium_robustness.py",
+        INSTALL_ROOT / "cod" / "p17_analyze_equilibrium_robustness.py",
     )
     if path.exists()
 )
